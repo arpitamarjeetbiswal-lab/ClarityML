@@ -36,14 +36,10 @@ Given a short text input, ClarityML:
 ## 🖼️ Screenshots
 
 ### 🔹 Home Interface
-> *(Add screenshot here)*  
-`/screenshots/home.png`
+![ClarityML Home Interface](screenshots/home.png)
 
 ### 🔹 Prediction Output
-> *(Add screenshot here)*  
-`/screenshots/prediction.png`
-
-📌 *(You can add screenshots later — the placeholders are ready.)*
+![ClarityML Prediction Output](screenshots/prediction.png)
 
 ---
 
