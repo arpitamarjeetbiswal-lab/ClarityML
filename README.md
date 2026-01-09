@@ -1,29 +1,79 @@
-# ClarityML 🧠✨
+🧠 ClarityML
+Turn confusion into clarity using explainable machine learning
 
-ClarityML is a human-centered machine learning application that helps users turn confusion into clarity.
+Python Streamlit Scikit-learn Status
 
-It analyzes free-text thoughts to:
-- Detect mental states (confused, anxious, avoidant, clear, motivated)
-- Show confidence scores for predictions
-- Explain *why* a prediction was made using key influencing words
-- Suggest simple, actionable next steps
+🔗 Live App:
+👉 https://clarityml-n2i97tqer2noq4ygccsu.streamlit.app
 
-## 🔍 How It Works
-- Text is vectorized using TF-IDF
-- A Logistic Regression model predicts mental states
-- Explainable AI highlights important words
-- A Streamlit UI enables real-time interaction
+📌 Overview
+ClarityML is a human-centered machine learning application that analyzes free-text thoughts to identify a user’s mental state and suggest actionable next steps.
 
-## 🛠 Tech Stack
-- Python
-- Scikit-learn
-- Pandas & NumPy
-- Streamlit
-- Jupyter Notebook
+Unlike generic AI chatbots, ClarityML focuses on:
 
-## 🎯 Goal
-ClarityML focuses on **decision clarity and self-reflection**, not generic chatbot responses.
+Decision clarity
+Explainable predictions
+Action-oriented guidance
+🧠 What It Does
+Given a short text input, ClarityML:
 
-## 🚀 Status
-Local version complete  
-Online deployment coming next
+Detects the mental state
+(confused, anxious, avoidant, clear, motivated)
+Shows prediction confidence
+Explains why the prediction was made (key influencing words)
+Suggests a simple, practical next step
+🖼️ Screenshots
+🔹 Home Interface
+(Add screenshot here)
+/screenshots/home.png
+
+🔹 Prediction Output
+(Add screenshot here)
+/screenshots/prediction.png
+
+📌 (You can add screenshots later — the placeholders are ready.)
+
+🔍 How It Works
+User inputs free-form text
+Text is vectorized using TF-IDF
+A Logistic Regression classifier predicts the mental state
+Feature weights are used for explainability
+A tailored next step is generated
+Results are displayed via Streamlit UI
+🛠️ Tech Stack
+Python
+Scikit-learn
+Pandas & NumPy
+Streamlit
+Jupyter Notebook
+Git & GitHub
+🚀 Deployment
+Deployed on Streamlit Community Cloud
+Portable file handling using dynamic paths
+Publicly accessible web application
+🔗 Live URL:
+https://clarityml-n2i97tqer2noq4ygccsu.streamlit.app
+
+🎯 Use Cases
+Overthinking & decision paralysis
+Early-stage self-reflection
+Productivity & focus assessment
+Demonstration of explainable NLP models
+📂 Project Structure
+ClarityML/ ├── app.py ├── notebooks/ │ ├── model.pkl │ ├── vectorizer.pkl │ └── mental_states.csv ├── requirements.txt ├── README.md
+
+yaml Copy code
+
+👤 Author
+Arpit Amarjeet Biswal
+6th-semester undergraduate, Government College of Engineering, Keonjhar
+CGPA: 8.52
+IBM & Microsoft certified in AI/ML and Big Data
+
+⭐ Acknowledgements
+Built as an end-to-end machine learning project focusing on:
+
+explainability
+real-world deployment
+human-centered AI design
+⭐ If you find this project useful, consider starring the repository.ng next
