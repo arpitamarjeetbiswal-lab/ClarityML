@@ -3,10 +3,17 @@ import pickle
 import numpy as np
 
 # Load model and vectorizer
-with open("notebooks/model.pkl", "rb") as f:
+import os
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+model_path = os.path.join(BASE_DIR, "notebooks", "model.pkl")
+vectorizer_path = os.path.join(BASE_DIR, "notebooks", "vectorizer.pkl")
+
+with open(model_path, "rb") as f:
     model = pickle.load(f)
 
-with open("notebooks/vectorizer.pkl", "rb") as f:
+with open(vectorizer_path, "rb") as f:
     vectorizer = pickle.load(f)
 
 def predict_with_confidence(text):
