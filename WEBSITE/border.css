@@ -1,0 +1,14 @@
+h1{
+    border-style: dashed;
+    border-width: 3px;
+    border-color: purple;
+    border-radius: 20px;
+}
+p{
+    border-bottom: 3px solid rgb(221, 71, 71);
+    border-top: 3px solid rgb(159, 159, 52);
+    border-left:3px dotted rgb(55, 0, 255) ;
+    border-right:3px dotted rgb(43, 184, 43);
+
+    border-radius: 10px;
+}

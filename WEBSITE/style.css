@@ -1,0 +1,37 @@
+
+
+
+body {
+    background-color: lightpink;
+}
+@font-face{
+    src:url(fonts/Underdog-Regular.ttf);
+    font-family: Underdog ;
+}
+@font-face {
+    
+    src: url(fonts/playwriteMXGuides-Regular.tff);
+    font-family:(playwriteMXGuides);
+}
+h1 {
+    color: blueviolet;
+    font-family: Underdog, Arial, Helvetica, sans-serif;
+}
+h3 {
+    color: mediumslateblue;
+}
+#p1 {
+    color: red;
+}
+#p2 {
+    color: blue;
+}
+#p3 {
+    color: green;
+}
+p{
+    font-family: Playwrite MX Guides, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: .61cm;
+    font-weight:lighter;
+    font-style:italic;
+}

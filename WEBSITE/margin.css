@@ -1,0 +1,19 @@
+body {
+    margin: 0px;
+}
+
+.box {
+    border: 5px solid;
+    font-size: 5em;
+    width: 250px; /* Specified units */
+    height: 250px; /* Specified units */
+    margin: 100px;
+}
+
+#box1 {
+    background-color: beige;
+}
+
+#box2 {
+    background-color: burlywood;
+}

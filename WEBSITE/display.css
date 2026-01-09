@@ -1,0 +1,11 @@
+div{
+    background-color: red;
+ 
+    display: block;
+    visibility: hidden;
+}
+/*display can be inline(it will act as span element ) or block(it will actas div eleement) or it can be none (dispaly nothing)-->*/
+/*here the visibility is hidden as if the elemnt is nt there but it take teh space as if there is something*/
+span{
+    background-color: blue;
+}
